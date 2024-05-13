@@ -17,6 +17,13 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class PropertyController {
+
+//    @Autowired 一个构造方法里，将要注入的 bean 以参数传入，与下面直接声明 bean 变量时用 @Autowired 一样作用。
+//    @Autowired
+//    private ApplicationProperty applicationProperty;
+//    @Autowired
+//    private DeveloperProperty developerProperty;
+
     private final ApplicationProperty applicationProperty;
     private final DeveloperProperty developerProperty;
 
